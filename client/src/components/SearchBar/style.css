@@ -1,0 +1,16 @@
+.searchDiv {
+    background-image:url(../../images/city.jpg);
+}
+
+.StockSearch {
+    color: white
+}
+
+.searchDiv {
+    text-align: center;
+}
+
+.form-control {
+    width: 20%;
+    margin-left: 40%;
+}
