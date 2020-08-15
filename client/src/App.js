@@ -431,7 +431,11 @@ class App extends Component {
       
     })
     // this.getdbstockdata();
-    this.updatedbstockdataOnSub();
+    setTimeout(() => {  
+      console.log("this.updatedbstockdataOnSub();");
+      this.updatedbstockdataOnSub();
+  }, 1000);
+    
     event.value = "";
   };
 
